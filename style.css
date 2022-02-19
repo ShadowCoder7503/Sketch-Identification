@@ -1,0 +1,22 @@
+body{
+    background:url("background.jpg");
+    font-size:30px;
+}
+#ShowSketch{
+    height:40px;
+     width:130px;
+     float:right;
+     font-size:20px;
+}
+canvas{
+    
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration:8s;
+    margin-top:50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow:1px 1px 38px red;}
+    to{box-shadow:1px 1px 38px cyan;}
+}
